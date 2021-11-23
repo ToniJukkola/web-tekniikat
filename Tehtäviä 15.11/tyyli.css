@@ -1,0 +1,15 @@
+html {
+    width: 60vh;
+    height: 700px;
+}
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+li {
+    border: 1px solid black;
+    padding: 10px;
+}

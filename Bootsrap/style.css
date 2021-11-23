@@ -1,0 +1,20 @@
+.col-sm-6 {
+    border: 2px solid #333;
+    background-color: palegreen;
+}
+
+
+
+.navbar-brand {
+    font-family:'Times New Roman', Times, serif;
+    
+    font-size: 40px;
+}
+.text-reset {
+    text-decoration: none;
+}
+.text-reset:hover{
+    background: rgb(120, 226, 120);
+}
+
+
