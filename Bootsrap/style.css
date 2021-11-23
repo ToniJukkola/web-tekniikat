@@ -3,7 +3,24 @@
     background-color: palegreen;
 }
 
+h4 {
+    padding: 50px;
+    text-align: center;
+}
 
+h3 {
+    color: darkorange;
+}
+
+button {
+    padding: 10px;
+    
+}
+
+
+.col:hover {
+    border: 1px solid rgb(64, 117, 64);
+}
 
 .navbar-brand {
     font-family:'Times New Roman', Times, serif;
