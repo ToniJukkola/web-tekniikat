@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     
 
-    <title>Hello, world!</title>
+    <title>Ostoskori</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: rgb(64, 117, 64);"> 
@@ -52,9 +52,9 @@
       <span></span>
 
      <!---Jatka ostoksia-nappi--> 
-      <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+      <a href="../index.html"><button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
-      </svg>Jatka ostoksia</button>
+      </svg>Jatka ostoksia</button></a>
 
       <table class="table table-borderless">
         <thead>
@@ -81,7 +81,7 @@
             <tr>
               <th scope="row">3</th>
               <td colspan="2">...</td>
-              <td></td>
+              <td>...</td>
             </tr>
             <tr>
                 <td scope="row"></td>
@@ -92,15 +92,18 @@
           </tbody>
       </table>
 
-      <div id="posti" class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Sähköposti</label>
-      </div>
-
-      <button id="tilaa">Tilaa</button>
+      
+      
+        <div class="input-group flex-nowrap">
+          <span class="input-group-text" id="addon-wrapping">Tilaa uutiskirje 
+            <span></span><input type="checkbox"></span>
+          <input type="text" class="form-control" placeholder="Sähköposti" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+      
+      <button id="tilaa">Vahvista tilaus</button>
       
 
-
+      
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
