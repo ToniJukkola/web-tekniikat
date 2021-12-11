@@ -1,0 +1,13 @@
+.container-xl {
+    margin-top: 10rem;
+}
+
+.col {
+    background-color: rgba(152, 251, 152, 0.486);;
+    padding: 20px;
+    border: 10px solid white;
+}
+
+img {
+   max-width: 100%;
+}

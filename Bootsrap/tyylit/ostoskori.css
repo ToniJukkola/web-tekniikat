@@ -38,3 +38,7 @@ button:hover {
 .form-control {
     max-width: 200px;
 }
+
+h2 {
+    font-family:serif;
+}
