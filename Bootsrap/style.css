@@ -17,6 +17,11 @@ button {
     
 }
 
+#kansikuva {
+    width: 94rem;
+    margin-bottom: 10rem;
+}
+
 .col {
     border: 1px solid white;
 }
@@ -37,9 +42,6 @@ button {
     background: rgb(120, 226, 120);
 }
 
-#kansikuva {
-    margin-bottom: 10rem;
-}
 
 #valia {
     margin: 2rem;
