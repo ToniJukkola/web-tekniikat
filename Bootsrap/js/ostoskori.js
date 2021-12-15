@@ -1,6 +1,16 @@
 // JS-tiedosto ostoskorille
 // Bootstrap tehtävä.
 
+
+
+function tyhjennä() {
+  document.getElementById("tuote1").innerHTML = "";
+  document.getElementById("tuote2").innerHTML = "";
+  document.getElementById("tuote3").innerHTML = "";
+  document.getElementById("tuote4").innerHTML = "";
+  document.getElementById("yhteensa").innerHTML = "0.00€";
+}
+// Tein tämmöisen ajastiminen sivupalkkiin.
 let countDownDate = new Date("Aug 11, 2022 15:37:25").getTime();
 
 let x = setInterval(function() {

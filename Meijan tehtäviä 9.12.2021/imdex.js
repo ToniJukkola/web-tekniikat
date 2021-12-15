@@ -4,7 +4,7 @@
 
 // HTTP request
 let xmlhttp = new XMLHttpRequest();
-xmlhttp.open("GET", "https://yesno.wtf/api/",true);
+xmlhttp.open("GET", "https://yesno.wtf/api/",true); 
 // send request
 xmlhttp.send();
 
