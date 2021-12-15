@@ -1,3 +1,8 @@
+body {
+background-image: url(../kuvat/taustakuva.jpg);
+width: 100rem;
+}
+
 #yhteensa {
     color: darkorange;
     font-size: x-large;
@@ -33,6 +38,7 @@ button:hover {
     margin: 2rem;
     border: 6px solid darkorange;
     max-width: 60em;
+    background-color: white;
 }
 
 .form-control {

@@ -17,6 +17,10 @@ button {
     
 }
 
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #kansikuva {
     width: 94rem;
     margin-bottom: 10rem;
@@ -44,7 +48,10 @@ button {
 
 
 #valia {
-    margin: 2rem;
+    margin: 3rem;
 }
 
+#tervetuloa {
+    font-family: fantasy;
+}
 
