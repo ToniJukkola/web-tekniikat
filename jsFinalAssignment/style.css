@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+}
+article {
+    text-align: center;
+    float: left;
+    margin-left: 3em;
+    width: 45%;
+    height: 600px; 
+    background: #ccc;
+    padding: 20px;
+  }
+  
+header {
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+}
+
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: darkviolet;
+    
+}
+
+
+aside {
+    background-color: #333;
+}
+#otsikko {
+    color: white;
+    
+}
+#tilaa {
+    margin: 100px;
+}
