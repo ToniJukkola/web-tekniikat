@@ -27,6 +27,7 @@ xmlhttp.onreadystatechange=function() {
          let joke = JSON.parse(this.response);
 	     // Access the result here
 	     document.getElementById("joke").innerHTML = joke.contents.jokes[0].joke.text;
+         console.log(joke);
 	 }
     };
     xhttp.open("GET", "https://api.jokes.one/jod?category=animal", true);

@@ -1,6 +1,15 @@
+// JavaScript - tiedosto index.html tiedostolle. 
+// Luonut Toni Jukkola.
+const ERROR = "Hakupainiketta ei voi painaa jos hakukenttä on tyhjä!";
+// estetään haku ilman input arvoa.
+function tyhja() {
+    document.getElementById("data").innerHTML = "";
+    document.getElementById("inputvalue").value = "";
+}
+
 // Tapahtumankäsittelijä inputille/hae painikkeella 
-// luo HTTP/request inputin perusteella
-function ok() {
+// luo HTTP/request inputin perusteella.
+function haku() {
 
     let uri ="http://universities.hipolabs.com/search?country=" + document.getElementById("inputvalue").value;
 // HTTP request
@@ -15,7 +24,7 @@ xmlhttp.onreadystatechange=function() {
         
         let domains = JSON.parse(xmlhttp.response);
         domains.forEach(element => {
-            document.getElementById("data").innerHTML += "<li>" + element.web_pages  + element.name + "</li>";
+            document.getElementById("data").innerHTML += "<li>" + "<a href='" + element.web_pages + "'>" + element.name + "</a>"  + "</li>" + "<br>";
             
         });
         document.getElementById("data").innerHTML += "</ul>";
