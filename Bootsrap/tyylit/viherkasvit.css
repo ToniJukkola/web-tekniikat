@@ -13,6 +13,10 @@ img {
    max-width: 100%;
 }
 
+#valia {
+    margin: 4rem;
+}
+
 #hinta {
     font-size: 3rem;
     font-family: fantasy;
@@ -23,4 +27,26 @@ img {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#linkki {
+    margin: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    background-color: palegreen;
+    border: 5px solid palegreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    width: fit-content;
+}
+
+#linkki:hover {
+    background-color: darkorange;
+    border: 5px solid darkorange;
 }

@@ -17,12 +17,17 @@ button {
     
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #kansikuva {
-    width: 94rem;
+    width: 100%;
     margin-bottom: 10rem;
 }
 
@@ -48,10 +53,27 @@ footer {
 
 
 #valia {
-    margin: 3rem;
+    margin: 4rem;
 }
 
 #tervetuloa {
     font-family: fantasy;
+}
+
+#linkki {
+    margin: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    background-color: palegreen;
+    border: 5px solid palegreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    width: fit-content;
+}
+
+#linkki:hover {
+    background-color: darkorange;
+    border: 5px solid darkorange;
 }
 
