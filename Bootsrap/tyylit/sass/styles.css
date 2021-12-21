@@ -8,9 +8,13 @@ h4 {
   text-align: center;
 }
 
-h3 {
+h3, h6 {
   font-family: fantasy;
+  background-color: palegreen;
   color: darkorange;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 button {
@@ -51,7 +55,12 @@ footer {
 }
 
 .navbar-brand {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: fantasy;
+  background-color: palegreen;
+  color: darkorange;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-size: 40px;
 }
 
@@ -69,12 +78,20 @@ footer {
 
 #tervetuloa {
   font-family: fantasy;
+  background-color: palegreen;
   color: darkorange;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 #tarjoukset {
   font-family: fantasy;
+  background-color: palegreen;
   color: darkorange;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 #linkki {
@@ -108,6 +125,15 @@ footer {
   }
   #valia {
     margin: 0rem;
+  }
+  #kansikuva {
+    margin-bottom: 1rem;
+  }
+  #tervetuloa {
+    margin: 2rem;
+  }
+  #tarjoukset {
+    margin: 2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

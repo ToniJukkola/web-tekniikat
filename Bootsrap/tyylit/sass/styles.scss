@@ -2,6 +2,13 @@ $main-color: palegreen;
 $text-color: darkorange;
 $special-font: fantasy;
 
+@mixin important {
+    font-family: $special-font;
+    background-color: $main-color;
+    color: $text-color;
+    width: fit-content;
+}
+
 .col-sm-6 {
     border: 10px solid $main-color;
     background-color:  $main-color;
@@ -12,9 +19,8 @@ h4 {
     text-align: center;
 }
 
-h3 {
-    font-family: $special-font;
-    color: $text-color;
+h3, h6 {
+    @include important();
 }
 
 button {
@@ -55,7 +61,7 @@ footer {
 }
 
 .navbar-brand {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    @include important();
     font-size: 40px;
 
 }
@@ -73,13 +79,11 @@ footer {
 }
 
 #tervetuloa {
-    font-family: $special-font;
-    color: $text-color;
+    @include important();
 }
 
 #tarjoukset {
-    font-family: $special-font;
-    color: $text-color;
+    @include important();
 }
 
 #linkki {
@@ -113,6 +117,17 @@ footer {
         margin: 0rem;
     }
 
+    #kansikuva {
+        margin-bottom: 1rem;
+    }
+
+    #tervetuloa {
+        margin: 2rem;
+    }
+
+    #tarjoukset {
+        margin: 2rem;
+    }
    
 }
 
