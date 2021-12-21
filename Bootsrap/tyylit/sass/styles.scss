@@ -1,0 +1,118 @@
+$main-color: palegreen;
+$text-color: darkorange;
+$special-font: fantasy;
+
+.col-sm-6 {
+    border: 10px solid $main-color;
+    background-color:  $main-color;
+}
+
+h4 {
+    padding: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family: $special-font;
+    color: $text-color;
+}
+
+button {
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+        &:hover {
+            color: black;
+        }
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
+
+#kansikuva {
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.col {
+    width: fit-content;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: $main-color;
+    padding: 20px;
+   
+
+}
+.btn {
+    margin: 20px;
+    background-color: $text-color;
+}
+
+.navbar-brand {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+
+}
+.text-reset {
+    text-decoration: none;
+        &:hover {
+        background: $text-color;
+    }
+
+}
+
+
+#valia {
+    margin: 4rem;
+}
+
+#tervetuloa {
+    font-family: $special-font;
+    color: $text-color;
+}
+
+#tarjoukset {
+    font-family: $special-font;
+    color: $text-color;
+}
+
+#linkki {
+    margin: 10px;
+    font-size: xx-large;
+    background-color: $main-color;
+    border: 5px solid $main-color;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    width: fit-content;
+        &:hover {
+            background-color: $text-color;
+            border: 5px solid $text-color;
+            color: black;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.747);
+        }
+
+}
+
+@media screen and (max-width: 576px) {
+    #linkki {
+        width: 100%;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    #valia {
+        margin: 0rem;
+    }
+
+   
+}
+

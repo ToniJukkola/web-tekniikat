@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Bootsrap/tyylit/sass/styles.css">
     
 
     <title>Kasvukauppa</title>
@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgba(152, 251, 152, 0.486);"> 
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgba(152, 251, 152, 0.479)"> 
         <div class="container-fluid"> 
           <a class="navbar-brand" href="#">Kasvukauppa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,20 +90,26 @@
 
               <span id="valia"></span>
               <br>
-              <h1>Tarjoukset</h1>
+              <h1 id="tarjoukset">Tarjoukset</h1>
                 <div class="row">
             <div class="col"><h6>Mehikasvilajitelma 3kpl <h3>13.99 €</h3></h6>
               <img src="../Bootsrap/kuvat/3mehikasvia.jpg" class="img-fluid" width="200" alt=""><br>
-              <div>Kolmen mehikasvin setti, joka sisältää helppohoitoisia mehikasveja. Ne viihtyvät yleensä valoisissa paikoissa, mutta jotkut pärjäävät hyvin myös varjossa. Kastele kerran kuukaudessa.</div>
+                <div>
+                  Kolmen mehikasvin setti, joka sisältää helppohoitoisia mehikasveja. Ne viihtyvät yleensä valoisissa paikoissa, mutta jotkut pärjäävät hyvin myös varjossa. Kastele kerran kuukaudessa.</div>
               <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
               </button></div>
             <div class="col"><h6> Palmuvehka <h3>15.00 €</h3></h6>
               <img src="../Bootsrap/kuvat/Zzplant.jpg" class="img-fluid" width="200" alt=""><br>
-              <div>Palmuvehka on erittäin kestävä ja veistoksellinen huonekasvi, jolla on suuret, kiiltävät, tummanvihreät lehdet. Se on yksi helppohoitoisimmista huonekasveista, sillä se pärjää niin paahteessa kuin pimeässäkin kasvupaikassa ja kestää epäsäännöllistäkin kastelua.</div>
+                <div>
+                  Palmuvehka on erittäin kestävä ja veistoksellinen huonekasvi, jolla on suuret, kiiltävät, tummanvihreät lehdet. Se on yksi helppohoitoisimmista huonekasveista, sillä se pärjää niin paahteessa kuin pimeässäkin kasvupaikassa ja kestää epäsäännöllistäkin kastelua.</div>
               <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
               </button></div>
-              <div class="col"><h6> Kukkaruukku <h3>Iso 9.00 € / Pieni 5.00€</h3></h6>
-                <img src="../Bootsrap/kuvat/2kukkaeuukkua.webp" class="img-fluid" width="200" alt=""><br> Esteettisen kauniit ruukut ovat mahtavia sisustuselementtejä. <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
+              <div class="col"><h6> Kukkaruukku <h3>Iso 9.00 € / Pieni 5.00€</h3></h6><div>
+                <img src="../Bootsrap/kuvat/2kukkaeuukkua.webp" class="img-fluid" width="200" alt=""><br> 
+                <div>
+                Esteettisen kauniit ruukut ovat mahtavia sisustuselementtejä.
+                </div> 
+                <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
                 </button></div>
           
               <span id="valia"></span>
@@ -112,15 +118,21 @@
             <div class="row">
               <div class="col"><h6>Pieni kaktus <h3>4.00 €</h3></h6>
                 <img src="../Bootsrap/kuvat/pikkukaktus.jpg" class="img-fluid" width="200" alt=""><br>
-                <div>Todellinen selviytyjäkasvi. Luonnossa piikit suojaavat kasvia eläimiltä ja keräävät kastetta, joka valuu maahan. Kasvit elävöittävät kotia ja voivat parantaa mielialaasi!</div>
+                  <div>
+                    Todellinen selviytyjäkasvi. Luonnossa piikit suojaavat kasvia eläimiltä ja keräävät kastetta, joka valuu maahan. Kasvit elävöittävät kotia ja voivat parantaa mielialaasi!</div>
                 <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
                 </button></div>
               <div class="col"><h6> Viherkasvimulta <h3>2,99 €</h3></h6>
-                <img src="../Bootsrap/kuvat/multa.jpg" class="img-fluid" width="200" alt=""><br> Viherkasvimulta on ravinteikas ja ilmava kasvualusta kasveillesi. <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
+                <img src="../Bootsrap/kuvat/multa.jpg" class="img-fluid" width="200" alt=""><br> 
+                <div>
+                Viherkasvimulta on ravinteikas ja ilmava kasvualusta kasveillesi. 
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
                 </button></div>
                 <div class="col"><h6> Mehikasvilajitelma <h3>2.00€ kpl</h3></h6>
                   <img src="../Bootsrap/kuvat/mehikasveja.jpg" class="img-fluid" width="200" alt=""><br>
-                  <div>Helppohoitoiset mehikasvit kappalehintaan!</div>
+                    <div>
+                      Helppohoitoiset mehikasvit kappalehintaan!</div>
                   <button type="button" class="btn btn-secondary btn-sm">Lisää ostoskoriin!
                   </button></div>
             

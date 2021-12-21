@@ -3,7 +3,7 @@
 }
 
 .col {
-    background-color: rgba(152, 251, 152, 0.486);;
+    background-color: palegreen;
     padding: 20px;
     border: 5px solid white;
     min-width: 200px;
@@ -49,4 +49,19 @@ a {
 #linkki:hover {
     background-color: darkorange;
     border: 5px solid darkorange;
+}
+
+@media screen and (max-width: 576px) {
+    #linkki {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    #valia {
+        margin: 0rem;
+    }
 }

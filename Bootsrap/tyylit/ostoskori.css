@@ -36,12 +36,12 @@ button:hover {
 .table-borderless {
     margin: 2rem;
     border: 6px solid darkorange;
-    max-width: 50em;
+    max-width: 600px;
     height: fit-content;
     background-color: white;
 }
 
 .form-control {
-    max-width: 200px;
+    max-width: 600px;
 }
 
