@@ -11,13 +11,12 @@ background-image: url(../kuvat/full-bloom.png);
    
     float: left;
     margin-left: 11em;
-    width: 100px;
-    height: 60px;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
 .navbar-brand {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: palegreen;
+    font-family:fantasy;
     font-size: 40px;
 }
 
@@ -26,7 +25,7 @@ span {
 }
 
 button {
-    margin: 2rem;
+    margin-left: 2rem;
 }
 
 button:hover {
@@ -41,7 +40,15 @@ button:hover {
     background-color: white;
 }
 
-.form-control {
-    max-width: 600px;
+
+
+@media screen and (max-width: 576px) {
+    
+    .table-borderless {
+        margin: 0rem;
+        font-size: xx-small;
+    }
+
+
 }
 
